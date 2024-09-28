@@ -201,7 +201,7 @@ header {
 }
 
 .progress-line .Python {
-    width: 75%;
+    width: 80%;
 }
 
 .progress-line .Excel {
@@ -218,6 +218,10 @@ header {
 .progress-line .Css {
     width: 65%;
 }
+.progress-line .javascript {
+    width: 70%;
+}
+
 
 .bar .progress-line span::before {
     position: absolute;
@@ -265,6 +269,9 @@ header {
     content: "75%";
 }
 .progress-line .python::after {
+    content: "80%";
+}
+.progress-line .javascript::after {
     content: "70%";
 }
 
