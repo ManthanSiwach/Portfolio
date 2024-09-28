@@ -719,3 +719,11 @@ header {
         height: 90vmax;
     }
 }
+
+a.no-style {
+    color: white; 
+}
+
+a.no-style:hover {
+    color: cyan; /* Color on hover */
+}
